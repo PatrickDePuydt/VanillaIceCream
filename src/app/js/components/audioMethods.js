@@ -16,3 +16,5 @@ function playAudio(event) {
   }
 
 window.addEventListener('keydown', playAudio);
+
+console.log('Importing');
