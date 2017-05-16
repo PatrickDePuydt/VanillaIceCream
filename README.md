@@ -1,4 +1,4 @@
-[!Vanilla Ice Cream](https://raw.githubusercontent.com/PatrickDePuydt/VanillaIceCream/master/src/app/images/icecream256.png)
+![Vanilla Ice Cream](https://raw.githubusercontent.com/PatrickDePuydt/VanillaIceCream/master/src/app/images/icecream256.png)
 # Vanilla Ice Cream
 Plain Vanilla Js Functions & Methods
 
