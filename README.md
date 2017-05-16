@@ -24,9 +24,10 @@ First load the HTML into your DOM using an `<audio></audio>` tag with the source
 ```
 
 ###### Example:
-__```
+
+```
 	<audio data-key="65" src="sounds/kickdrum.wav"></audio>
-```__
+```
 
 
 The `'data-key'="<number>"` corresponds to the event key code on the keyboard. To find the keycode, visit [KeyCode.info](keycode.info) and press a key there. For example, the __A__ key is _65_ so they HTML attribute would be `data-key="65"`
