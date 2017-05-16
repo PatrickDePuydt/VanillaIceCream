@@ -2,6 +2,8 @@
 # Vanilla Ice Cream
 Plain Vanilla Js Functions & Methods
 
+Vanilla Js uses ES6 module exports to break up functionaity into compartmentalized sections.
+
 ### Available Methods
 
 ### Audio
