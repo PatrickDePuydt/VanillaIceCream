@@ -52,7 +52,8 @@ Now all you need is to add an event listener to the window and have it invoke th
 
 You will then invoke the method by calling it through dot notaton like so:
 ``` js
-window.addEventListener('keydown', audioMethods.playAudio);
+window.addEventListener('keydown', playAudio.playAudio); // If you imported just one method
+window.addEventListener('keydown', audioMethods.playAudio); // If you imported all audio methods
 ```
 
 ***
