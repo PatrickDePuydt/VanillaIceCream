@@ -1,5 +1,5 @@
 // Audio Methods
-import * as audioMethods from './components/audioMethods';
+import * as audioMethods from './methods/audioMethods';
 
 // console.log('Square Root', square(event)); // 121
 
