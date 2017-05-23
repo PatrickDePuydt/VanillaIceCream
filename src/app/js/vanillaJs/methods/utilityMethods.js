@@ -14,3 +14,15 @@ export function radLog(whatIsThisThing, backgroundColor, fontColor) {
 
 	console.trace('%c 🔎 Stack Trace: ', 'background:orange;');
 };
+
+
+
+
+function filterThis(dataSource) {		
+	const fifteen = dataSource.filter(inventor => (
+		inventor.year >= 1500 && inventor.year < 1600
+		));
+	console.log('Fifteen', fifteen);
+	return fifteen;
+		
+};
