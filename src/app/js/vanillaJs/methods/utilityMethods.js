@@ -1,5 +1,5 @@
 
-import {inventors, people, data} from '../../../data/simpleDataModels.js';
+import {inventors, people, carData} from '../../../data/simpleDataModels.js';
 
 	
 
@@ -27,9 +27,7 @@ function filterThis(dataSource) {
 	const fifteen = dataSource.filter(inventor => (
 		inventor.year >= 1500 && inventor.year < 1600
 		));
-	console.log('Fifteen', fifteen);
-	return fifteen;
-		
+	return fifteen;	
 };
 
 
@@ -66,14 +64,39 @@ const totalYears = inventors.reduce((total, inventor) => {
 
 	
 // 5. Sort the inventors by years lived
+const oldestToYoungest = inventors.sort(function(a,b){		
+	const lastInventor = a.last;
+	const nextInventor = b.last;
+
+	return lastInventor > nextInventor ? -1 : 1;
+});
+
+
+	
 
 // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
 
 
+
+
 // 7. sort Exercise
 // Sort the people alphabetically by last name
 
+const alpha = people.sort((lastOne,nextOne) => {
+	const [aLast, aFirst] = lastOne.split(', ');
+	const [bLast, bFirst] = nextOne.split(', ');
+	return aLast > bLast ? 1 : -1;
+});
+// console.log(alpha);
+
+
 // 8. Reduce Exercise
 // Sum up the instances of each of these
+
+const transportation = carData.reduce(function(obj, item){
+	console.log(item);
+	return obj;
+		
+},{});
 
