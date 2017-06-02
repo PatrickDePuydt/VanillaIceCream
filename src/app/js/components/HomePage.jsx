@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Audio from './Audio.jsx';
+import Transitions from './Transitions.jsx';
 
 const HomePage = () => {
   return (
@@ -9,7 +10,10 @@ const HomePage = () => {
 	    	<h1>Vanilla Js</h1>
 	    	<h3>Plain Vanilla Js Methods</h3>
 	    </div> 
+	    
 	    <Audio />
+	    
+	    <Transitions />
     </div>
 
   );

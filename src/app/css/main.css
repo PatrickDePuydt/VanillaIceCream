@@ -4,3 +4,15 @@ body {
 #mainContainer {
   padding: 30px;
 }
+
+.spacing {
+	margin: 50px;
+}
+
+.hilight {
+	background-color:gold;
+}
+
+#remove, #add {
+	margin:10px;
+}

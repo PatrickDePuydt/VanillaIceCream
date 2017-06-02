@@ -95,8 +95,6 @@ const alpha = people.sort((lastOne,nextOne) => {
 // Sum up the instances of each of these
 
 const transportation = carData.reduce(function(obj, item){
-	console.log(item);
-	return obj;
-		
+	return obj;	
 },{});
 

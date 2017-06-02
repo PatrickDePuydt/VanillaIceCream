@@ -5,4 +5,7 @@ import * as audioMethods from './methods/audioMethods';
 // Utility Methods
 import * as utilityMethods from './methods/utilityMethods';
 
+
+// Animation Methods Methods
+import * as animationMethods from './methods/animationMethods';
 	
